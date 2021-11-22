@@ -1,0 +1,6 @@
+import random
+for x in range(1,6):
+    dado1=random.randint(1,7)
+    nombre=input("Su nombre: ")
+    print(dado1)
+print("Numero de dado sacado: "+str(dado1))
